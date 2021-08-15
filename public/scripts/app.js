@@ -3,10 +3,11 @@
 console.log('app.js is running!');
 
 var app = {
-    title: 'Indecision App!',
-    subtitle: 'Put your life in the hands of a computer',
+    title: 'What Shall We Eat Today ?!',
+    subtitle: 'Put your lunch in the hands of a computer',
     options: []
 };
+
 
 var onFormSubmit = function onFormSubmit(e) {
     e.preventDefault();
