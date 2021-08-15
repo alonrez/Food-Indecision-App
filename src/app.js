@@ -1,8 +1,6 @@
-console.log('app.js is running!')
-
 const app = {
-    title: 'Indecision App!',
-    subtitle: 'Put your life in the hands of a computer',
+    title: 'What Shall We Eat Today ?!',
+    subtitle: 'Put your lunch in the hands of a computer',
     options: []
 }
 
@@ -56,4 +54,3 @@ const render = () => {
 }
 render()
 
-// babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
